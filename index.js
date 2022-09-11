@@ -80,7 +80,6 @@ ${player1.name}'s hand is
 ${player1.playerDeck[i].value} of ${player1.playerDeck[i].suit}
 ${player2.name} is rewarded a point.`);
             player2.score++;
-            sum2 = player2.score;
             console.log(`${player2.name}'s score is currently ${player2.score}`);
         } else if (player1.playerDeck[i].value === player2.playerDeck[i].value) {
             console.log(`${player1.name} has tied with ${player2.name}.`);
